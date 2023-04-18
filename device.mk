@@ -22,6 +22,9 @@ ifneq ("$(wildcard vendor/partner_gms/products/gms.mk)", "")
 $(call inherit-product, vendor/partner_gms/products/gms.mk)
 endif
 
+#GApps
+include vendor/gapps/arm64/arm64-vendor.mk
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
