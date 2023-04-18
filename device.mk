@@ -118,25 +118,17 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
-    liba2dpoffload \
     libaudio-resampler \
     libaudiopreprocessing \
-    libbatterylistener \
     libbundlewrapper \
-    libcomprcapture \
     libdownmix \
     libdynproc \
     libeffectproxy \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
     libldnhncr \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libreverbwrapper \
-    libsndmonitor \
-    libspkrprot \
     libvisualizer \
     libvolumelistener \
     sound_trigger.primary.msmnile
@@ -153,7 +145,6 @@ PRODUCT_COPY_FILES += \
 
 # Audio Daemon
 PRODUCT_PACKAGES += audioadsprpcd
-PRODUCT_PACKAGES += vendor.qti.audio-adsprpc-service.rc
 
 # Audio Alsa Extensions
 PRODUCT_PACKAGES += \
