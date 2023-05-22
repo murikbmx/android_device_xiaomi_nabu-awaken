@@ -16,6 +16,24 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Xiaomi Stylus -->
+    <string name="stylus_title">Стилус Xiaomi</string>
+    <string name="stylus_summary">Настройки стилуса Xiaomi</string>
+    <string name="stylus_switch_title">Включить стилус Xiaomi</string>
+    <string name="stylus_switch_summary">Включите эти настройки, чтобы использовать стилус Xiaomi</string>
+
+    <!-- Xiaomi Keyboard -->
+    <string name="keyboard_title">Клавиатура Xiaomi</string>
+    <string name="keyboard_summary">Настройки клавиатуры Xiaomi</string>
+    <string name="keyboard_switch_title">Включить клавиатуру Xiaomi</string>
+    <string name="keyboard_switch_summary">Включите эти настройки, чтобы использовать клавиатуру Xiaomi</string>
+
+    <!-- Double tap 2 wake -->
+    <string name="double_tap_2_wake_title">Включение нажатием</string>
+    <string name="double_tap_2_wake_summary">Настройки "Включение нажатием"</string>
+    <string name="double_tap_2_wake_switch_title">Включение нажатием</string>
+    <string name="double_tap_2_wake_switch_summary">Дважды нажмите в любом месте экрана, чтобы вкючить устройство</string>
+     
     <!-- Dirac settings -->
     <string name="dirac_title">Улучшение звука Mi</string>
     <string name="dirac_summary">Улучшить качество звука</string>
